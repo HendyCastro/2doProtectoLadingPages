@@ -1,0 +1,95 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(124, 79, 82);
+    font-family: 'Berkshire Swash', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 200px;
+    box-shadow: 20px 20px 20px rgb(10, 10, 10);
+}
+
+.hero img{
+    width: 446px;
+    height: 100%;
+}
+
+.hero h1{
+    font-size: 5rem;
+    color: brown;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    transform: translate(-50, -50%);
+    text-shadow: 0 0 20px rgb(241, 241, 245);
+}
+
+.hero h2{
+    font-size: 2rem;
+    color: rgb(227, 221, 233);
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    transform: translate(-50, -50%);
+    text-shadow: 0 0 10px rgb(95, 54, 170);
+}
+
+.pasteles{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 10%;
+    box-shadow: 5px 8px 12px rgb(124, 79, 82);
+    border-radius: 100px;
+    box-shadow: 50px 50px 50px rgb(8, 8, 8);
+}
+
+.pasteles img{
+    width: 100%;
+    height:600px;
+}
+
+
+.info{
+    font-size: 3rem;
+    color: rgb(236, 231, 231);
+    text-shadow: 0 0 10px rgb(95, 54, 170);
+    position: relative;
+    top: 20%;
+    left: 26%;
+    transform: translate(-50, -50%);
+    text-shadow: 50px 50px 50px rgb(7, 7, 7);
+}
+
+.footer{
+    font-family: "Open Sans";
+    width: 100vw;
+    background: #111;
+    height: auto;
+    font-size: 3rem;
+    color: rgb(236, 231, 231);
+    padding-top: 40px;
+    text-shadow: 0 0 50px rgb(232, 243, 232);
+
+}
+
+
+
+
+
+
+
+
+
+
